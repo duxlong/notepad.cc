@@ -1,5 +1,7 @@
 # A quick cover of notepad.cc
 
+> docker build from https://github.com/FallenMax/notepad.cc
+
 ## Demo
 
 https://notepad.1976f.com/
