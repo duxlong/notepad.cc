@@ -13,4 +13,8 @@ RUN apk update && \
 
 WORKDIR /opt/notepad
 
+EXPOSE 1234
+
+VOLUME /opt/notepad/data
+
 CMD npm start
