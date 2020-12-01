@@ -10,7 +10,7 @@
     "test": "export NODE_ENV=test && jest --detectOpenHandles",
     "test:watch": "export NODE_ENV=test && jest --watch --verbose false",
     "server:build": "tsc --project ./src/server/tsconfig.json",
-    "server:watch": "ts-node-dev --transpileOnly --no-notify ./src/server/index.ts",
+    "server:watch": "ts-node-dev --no-notify ./src/server/index.ts",
     "client:build": "parcel build src/client/index.html --out-dir public --public-url '/dist'  --detailed-report 10",
     "client:watch": "parcel src/client/index.html --out-dir public --public-url '/dist' --open",
     "bundle": "zip -q -r bundle.zip public server common package.json yarn.lock pm2_dev.json pm2_prod.json",
