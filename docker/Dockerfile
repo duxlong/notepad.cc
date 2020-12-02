@@ -2,7 +2,7 @@ FROM alpine
 
 COPY . /opt/notepad/
 
-COPY entrypoint.sh /
+COPY docker/entrypoint.sh /
 
 RUN apk update && \
     apk add --no-cache nodejs npm && \
